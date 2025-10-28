@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header h3 {
+  background-color: gray;
+    
+    padding:15px;
+    text-align: center;
+}
+
+.box-container {
+ display:flex;
+    justify-content: center;
+    margin-top:80px;
+}
+
+.box {
+  background-color:white;
+   /* border-radius: 12px black; */
+   box-shadow: 0 6x 10px black ;
+   border:1px solid gainsboro;
+   margin:1.2em;
+   padding:2rem;
+   
+}
+
+
+
+.input-area {
+ display: flex;
+  justify-content:center;
+  
+  margin-top:80px;
+    
+  
+  width:100%;
+}
+
+#nameInput {
+  padding:10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  /* border-radius: 8px;
+  border: 1px solid #aaa;
+  width: 200px; */
+}
+
+#greetBtn{
+    
+    padding:10px;
+    padding-right: 18px;
+    background-color: gray;
+
+}
+
+/* button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+} */
